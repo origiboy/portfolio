@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/portfolio/'
+    }
+  } : {}
+
+export default {
     devtools: { enabled: true },
     typescript: {
         typeCheck: true,
@@ -49,7 +55,5 @@ export default defineNuxtConfig({
             },
         },
     },
-    router: {
-        base: '/portfolio/'
-    }
-})
+    ...routerBase,
+}
