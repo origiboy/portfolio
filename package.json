@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@vueuse/motion": "^2.1.0",
@@ -19,6 +20,7 @@
     "@nuxt/eslint": "^0.3.10",
     "eslint": "^8.57.0",
     "nuxt-aos": "^1.2.4",
+    "push-dir": "^0.4.1",
     "sass": "^1.75.0",
     "typescript": "^5.4.5",
     "vue-tsc": "^1.8.27"
