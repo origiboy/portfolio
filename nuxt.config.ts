@@ -1,9 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-      base: '/portfolio/'
-    }
-  } : {}
 
 export default {
     devtools: { enabled: true },
@@ -55,5 +50,7 @@ export default {
             },
         },
     },
-    ...routerBase,
+    generate: {
+        publicPath: 'https://origiboy.github.io/portfolio/'
+    }
 }
