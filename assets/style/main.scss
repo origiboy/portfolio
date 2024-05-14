@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background: $body-main;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: $container-large;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.main {
+    display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
