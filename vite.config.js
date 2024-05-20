@@ -15,4 +15,5 @@ export default defineConfig({
     'nuxt-aos'
   ],
   publicPath: process.env.NODE_ENV === "production" ? "/portfolio/" : "/",
+  base: '/portfolio/'
 })
