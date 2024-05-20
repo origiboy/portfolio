@@ -22,7 +22,7 @@
     padding: 40px;
     margin-bottom: 40px;
     border-radius: 20px;
-    background-image: url(~/assets/images/education-1.png);
+    background-image: url(../assets/images/education-1.png);
     background-size: 320px;
     background-repeat: no-repeat;
     background-position: center right 40px;

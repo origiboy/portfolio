@@ -1,3 +1,11 @@
+<script setup>
+import CommonInfo from './components/CommonInfo.vue'
+import AboutMe from './components/AboutMe.vue'
+import Skills from './components/Skills.vue'
+import Education from './components/Education.vue'
+import WorkExperience from './components/WorkExperience.vue'
+</script>
+
 <template>
 	<div class="container">
 		<div class="main">
@@ -13,7 +21,7 @@
 </template>
 
 <style lang="scss">
-@import url('~/assets/style/main.scss');
+@import url('./assets/style/main.scss');
 
 .main {
 	justify-content: space-between;

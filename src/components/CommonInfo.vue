@@ -20,6 +20,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
 const about = ref<HTMLElement | null>(null)
 const experienceTop = ref(0)
 const educationTop = ref(0)

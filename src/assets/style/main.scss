@@ -13,6 +13,17 @@ body {
     scroll-behavior: smooth;
 }
 
+.main {
+	justify-content: space-between;
+}
+
+.content-part {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .container {
     width: 100%;
     max-width: $container-large;

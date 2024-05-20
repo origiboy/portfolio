@@ -1,15 +1,14 @@
 <template>
     <div class="about" id="about">
         <h2>Обо мне</h2>
-        <img src="~/assets/images/hero-1.png" class="img-1" data-aos="flip-up" />
+        <img src="../assets/images/hero-1.png" class="img-1" data-aos="flip-up" />
         <div class="about__text" data-aos="flip-up">
             <h3>Привет, меня зовут Михаил!</h3>
             <h3>
-                Я 3 года занимаюсь разработкой сайтов, созданием SPA приложений, а также написанием скриптов на языке
-                Javascript.
+                Я 3 года занимаюсь разработкой коммерческих IT-продуктов. Обожаю Vue.js и Notion:)
             </h3>
         </div>
-        <img src="~/assets/images/hero-2.png" class="img-2" data-aos="flip-up" />
+        <img src="../assets/images/hero-2.png" class="img-2" data-aos="flip-up" />
     </div>
 </template>
 

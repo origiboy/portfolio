@@ -8,6 +8,9 @@
 </template>
 
 <script setup lang="ts">
+import SkillsSkill from './skills/Skill.vue'
+import { ref } from 'vue'
+
 const skills = ref([
     {
         color: 'green',

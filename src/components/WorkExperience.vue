@@ -39,8 +39,7 @@
                             <h3>Северсталь-инфоком (FUN&SUN)</h3>
                             <p><strong>Должность:</strong> Frontend разработчик</p>
                             <p>
-                                Проверял выполненные домашние задания студентов в рамках курсов Веб-верстка, javascript,
-                                vue.js на должности code reviewer.
+                                
                             </p>
                             <span>Должность: Frontend разработчик</span>
                         </div>
@@ -52,6 +51,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
+
 const date_parent = ref<HTMLElement | null>(null)
 const date_1 = ref<HTMLElement | null>(null)
 const date_2 = ref<HTMLElement | null>(null)
