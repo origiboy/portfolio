@@ -7,7 +7,7 @@ import WorkExperience from './components/WorkExperience.vue'
 </script>
 
 <template>
-	<div class="">
+	<div class="container">
 		<div class="main">
 			<CommonInfo />
 			<div class="content-part">
