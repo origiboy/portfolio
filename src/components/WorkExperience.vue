@@ -123,7 +123,7 @@ onMounted(() => {
                 left: -24px;
                 width: 48px;
                 height: 48px;
-                background-image: url(~/assets/images/arrow_down.svg);
+                background-image: url('../assets/images/arrow_down.svg');
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center;
