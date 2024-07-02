@@ -200,6 +200,19 @@ onMounted(() => {
                 font-weight: 600;
                 line-height: 15px;
             }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                display: inline-block;
+                margin-bottom: 10px;
+                color: $color-black;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 150%;
+            }
         }
 
         &-date {
