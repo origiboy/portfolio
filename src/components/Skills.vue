@@ -14,7 +14,7 @@ import { ref } from 'vue'
 const skills = ref([
     {
         color: 'green',
-        col: 'two',
+        col: 'three',
         data: [
             {
                 header: 'HTML',
@@ -22,13 +22,13 @@ const skills = ref([
             },
             {
                 header: 'CSS',
-                skills: ['HTML5', 'БЭМ', 'Семантическая разметка', 'SEO'],
+                skills: ['SCSS', 'БЭМ', 'Семантическая разметка', 'SEO'],
             },
         ],
     },
     {
         color: 'blue',
-        col: 'two',
+        col: 'three',
         data: [
             {
                 header: 'JavaScript',
@@ -47,22 +47,12 @@ const skills = ref([
         ],
     },
     {
-        color: 'green',
+        color: 'blue',
         col: 'two',
         data: [
             {
-                header: 'Терминал / Git',
-                skills: ['npm', 'GitHub', 'GitLab'],
-            },
-        ],
-    },
-    {
-        color: 'green',
-        col: 'two',
-        data: [
-            {
-                header: 'Сборки',
-                skills: ['Gulp', 'Webpack', 'Vite', 'Parcel', 'Prettier', 'ESLint'],
+                header: 'React',
+                skills: ['React Router', 'Redux', 'Redux Toolkit', 'Mobx', 'Formik', 'React Native'],
             },
         ],
     },
@@ -71,8 +61,48 @@ const skills = ref([
         col: 'two',
         data: [
             {
-                header: 'React',
-                skills: ['Redux', 'React Router', 'Formik'],
+                header: 'TypeScript',
+                skills: ['Object Types', 'Enums', 'Кортежи', 'Дженерики'],
+            },
+        ],
+    },
+    {
+        color: 'green',
+        col: 'two',
+        data: [
+            {
+                header: 'Тестирование',
+                skills: ['Jest', 'Cypress', 'vitest']
+            },
+        ],
+    },
+    {
+        color: 'green',
+        col: 'two',
+        data: [
+            {
+                header: 'Backend',
+                skills: ['node.js', 'express.js', 'PHP', 'Laravel']
+            },
+        ],
+    },
+    {
+        color: 'green',
+        col: 'two',
+        data: [
+            {
+                header: 'Терминал / Git',
+                skills: ['npm', 'GitHub', 'GitLab', 'CI/CD', 'GitHub Actions']
+            },
+        ],
+    },
+    {
+        color: 'green',
+        col: 'three',
+        data: [
+            {
+                header: 'Сборки',
+                skills: ['Gulp', 'Webpack 4/5', 'Vite', 'Parcel', 'Prettier', 'ESLint'],
             },
         ],
     },
@@ -82,17 +112,7 @@ const skills = ref([
         data: [
             {
                 header: 'Инструменты',
-                skills: ['Notion 💚', 'Figma', 'DevTools', 'Browsersync', 'Jira', 'Toggl Track'],
-            },
-        ],
-    },
-    {
-        color: 'green',
-        col: 'three',
-        data: [
-            {
-                header: 'Софт скиллы',
-                skills: ['Ответственность', 'Усидчивость', 'Коммуникабельность', 'Люблю выступать и обучать', 'Умею работать в команде'],
+                skills: ['Notion 💚', 'StoryBook', 'docker', 'Figma', 'DevTools', 'Browsersync', 'Jira', 'Toggl Track'],
             },
         ],
     },

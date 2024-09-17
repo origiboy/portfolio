@@ -6,8 +6,6 @@
                 <div class="experience__line">
                     <span class="experience__line-pointer"></span>
                     <span class="experience__line-circle" :style="{ top: circle_1_top + 'px' }"></span>
-                    <span class="experience__line-circle" :style="{ top: circle_2_top + 'px' }"></span>
-                    <span class="experience__line-circle" :style="{ top: circle_3_top + 'px' }"></span>
                 </div>
                 <div class="experience__places" ref="date_parent">
                     <div class="experience__places-group">
@@ -15,10 +13,12 @@
                         <div class="experience__places-block" data-aos="fade-up">
                             <h3>Проектная деятельность</h3>
                             <p>
-                                Разрабтаывал вёрстку по макетам figma, full stack веб-сервисы для отслеживания и учёта
-                                данных с использованием баз данных.
+                                <ul>
+                                    <li>- Разработка FullStack CRM на стеке JavaScript/PHP.</li>
+                                    <li>- Разработка и поддержка решений для учета времени и развития сотрудников.</li>
+                                </ul>
                             </p>
-                            <span>ноябрь 2019 - март 2021</span>
+                            <span>январь 2020 - март 2021</span>
                         </div>
                         <span class="experience__places-date date-2" ref="date_2" data-aos="fade-up">март 2021</span>
                     </div>
@@ -27,7 +27,12 @@
                             <h3>Skillbox</h3>
                             <p><strong>Должность:</strong> Code reviewer/Frontend разработчик</p>
                             <p>
-                                Разрабатывал учебные интерфейсы на стеке Vue/React.<br>Проверял выполненные домашние задания студентов в рамках курсов Веб-верстка, javascript, vue.js.
+                                <ul>
+                                    <li>- Разработка и поддержка проекта личного кабинета и платформы обучения на стеке React.</li>
+                                    <li>- Взаимодействие с командой разработки и менторами.</li>
+                                    <li>- Разработка расширений для браузера Chrome для расширения стандартного функционала продукта.</li>
+                                    <li>- Миграция с JQuery на React</li>
+                                </ul>
                             </p>
                             <span>март 2021 - март 2023</span>
                         </div>
@@ -39,7 +44,7 @@
                             <p><strong>Должность:</strong> Frontend разработчик</p>
                             <p>
                                 <ul>
-                                    <li>- Разработка и поддержка b2b и b2c продуктов с использованием Vue.js (преимущественно) и React.</li>
+                                    <li>- Разработка и поддержка b2b и b2c продуктов с использованием Vue.js (преимущественно)/React и TS.</li>
                                     <li>- Создание интерактивных пользовательских интерфейсов, разработка прикладных npm пакетов.</li>
                                     <li>- Интеграция с RESTful API для получения и отправки данных, работа с внешними сервисами и библиотеками, работа со сторонними API (в том числе оплата).</li>
                                     <li>- Оптимизация производительности фронтенд-части приложений, улучшение времени загрузки и отклика.</li>
